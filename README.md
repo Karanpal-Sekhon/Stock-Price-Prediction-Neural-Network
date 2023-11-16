@@ -40,3 +40,8 @@ cd stock-price-prediction
 - The LSTM model is constructed using Keras, compiled with the Adam optimizer, and trained on the training dataset.
 - Testing data is used to make predictions, and the root mean squared error (RMSE) is calculated for model evaluation.
 - Finally, the results are visualized, comparing the actual closing prices with the predicted values.
+
+# Results
+The LSTM Neural Network demonstrates its predictive capabilities with high accuracy, as shown in the visualizations within the notebook. The RMSE provides insight into the model's performance, and users can further tweak hyperparameters for optimization.
+
+Feel free to experiment and enhance the model for more accurate predictions or apply it to different stock datasets. Happy coding!
