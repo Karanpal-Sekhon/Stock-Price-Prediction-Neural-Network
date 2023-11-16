@@ -22,3 +22,21 @@ You can install these dependencies using the following command:
 ```bash
 pip install pandas numpy scikit-learn keras matplotlib yfinance pandas_datareader
 ```
+
+## Getting Started
+
+```bash
+git clone https://github.com/your-username/stock-price-prediction.git
+cd stock-price-prediction
+```
+1. Open the Jupyter Notebook file Stock_Price_Prediction.ipynb using Jupyter Notebook.
+2. Run the notebook cell by cell to execute the code and visualize the results.
+
+## Code Structure
+- The code begins by importing necessary libraries and setting up the environment.
+- Stock data is obtained using the Yahoo Finance API for AAPL Inc. within the specified date range.
+- Data visualization is performed to understand the closing price history.
+- Data preprocessing involves scaling the data and creating training and testing datasets.
+- The LSTM model is constructed using Keras, compiled with the Adam optimizer, and trained on the training dataset.
+- Testing data is used to make predictions, and the root mean squared error (RMSE) is calculated for model evaluation.
+- Finally, the results are visualized, comparing the actual closing prices with the predicted values.
